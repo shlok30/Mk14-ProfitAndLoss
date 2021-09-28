@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #4B5563;
+    --off-white: #F3F4F6;
+    --dark-gray: #6B7280;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background-color: var(--primary-color);
+    color : var(--off-white)
+}
+
+.container{
+    width : 50%;
+    margin : auto;
+    text-align: center;
+    padding: 3rem
+}
+
+.input-label{
+    display: block;
+}
+
+.input-field{
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding : 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border:1px solid var(--dark-gray);
+    border-radius: 1rem;
+
+}
+
+.link {
+    box-sizing: border-box;
+    padding: 0.5rem 1rem; 
+    background-color: var(--primary-color);
+    border : 1px solid var(--off-white);
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 140px;
+    margin: auto;
+    font-size: 0.8rem;
+}
+ 
+.footer {
+    padding: 4rem 1rem;
+    text-align: center;
+    color: var(--off-white);
+    border-top-right-radius: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .link {
+    color: var(--off-white)
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+    list-style: none;
+}
